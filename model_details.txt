@@ -1,0 +1,46 @@
+Explanation of data engineering and create ML model.
+
+tools used: Jupyter notebook.
+libraries: pandas, numpy, sklearn, seaborn and matplotlib
+
+
+
+1. import the required libraries.
+
+2. load the dataset using padas
+
+3. check the issue null values in dataset
+
+4. check the full information of the dataset using pandas info() method
+
+5. Countplot of the 'Result' shows the count of the -1 and 1 in the dataset. looks like an unbalanced data.
+
+6. check the corelation of the result with each feature.
+
+7. plot the heatmap for corelation visualization.
+
+8. consider the features that has positive and negative corelation.
+
+9. collected the features to train.
+
+10. split the dataframe using sklearn model.
+
+11. import the Random forest classifier
+
+12. train the data
+
+13. check the predictions on X test data
+
+14. perform the evaluation metrics
+
+15. perform the hyper parameter tuning using grid search CV.
+
+16. you can see the model performacne has slightly increased with best parameters that our grid shows.
+
+17. create a dataframe for keys.
+
+18. create a dataframe to collect result information.
+
+19. concatinate the dataframes to get final df.
+
+20. upload final df.
